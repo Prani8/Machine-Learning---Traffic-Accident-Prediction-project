@@ -1,3 +1,4 @@
+
 # 🚦 Traffic Accident Prediction with Decision Trees and SHAP
 
 This project uses a Decision Tree classifier to predict the likelihood of a traffic accident based on various real-world features like weather, road type, driver behavior, and vehicle information. In addition to training the model, it emphasizes **explainability** using **SHAP (SHapley Additive Explanations)** to understand which features influence predictions the most.
@@ -31,4 +32,22 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## 🧠 Key Learnings
+
+- How Decision Trees offer built-in transparency
+- How to handle real-world structured data
+- How to apply SHAP to enhance model interpretation
+- Why explainability matters in safety-critical applications like traffic prediction
+
+## 📜 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+## 🙌 Acknowledgements
+
+- [SHAP by Scott Lundberg](https://github.com/slundberg/shap)
+- [Scikit-learn](https://scikit-learn.org/)
+- UK Department for Transport (for domain inspiration)
 
